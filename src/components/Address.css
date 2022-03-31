@@ -1,0 +1,253 @@
+.addtabopen{
+    width: 32vw;
+    height: 41.6vw;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    top: 4.3vw;
+    z-index: 5;
+    box-shadow:60px 60px 50px 50px rgb(0 0 0 / 69%) ;
+    animation: addmenu1 1s;
+}
+.addtabclose{
+    width: 32vw;
+    height: 41.6vw;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    top: 4.3vw;
+    z-index: 5;
+    box-shadow:60px 60px 50px 50px rgb(0 0 0 / 69%) ;
+    animation: addmenu2 1s;
+    margin-right: -40vw;
+}
+.addtab{
+    width: 32vw;
+    height: 41.6vw;
+    background-color: white;
+    position: fixed;
+    right: 0;
+    top: 4.3vw;
+    z-index: 5;
+    box-shadow:60px 60px 50px 50px rgb(0 0 0 / 69%) ;
+    margin-right: -40vw;
+}
+@keyframes addmenu1 {
+    0%{
+        margin-right: -40vw;
+    }
+    10%{
+        margin-right: -36vw;
+    }
+    20%{
+        margin-right: -32vw;
+    }
+    30%{
+        margin-right: -28vw;
+    }
+    40%{
+        margin-right: -24vw;
+    }
+    50%{
+        margin-right: -20vw;
+    }
+    60%{
+        margin-right: -16vw;
+    }
+    70%{
+        margin-right: -12vw;
+    }
+    80%{
+        margin-right: -8vw;
+    }
+    90%{
+        margin-right: -4vw;
+    }
+    100%{
+        margin-right: 0vw;
+    }
+
+}
+@keyframes addmenu2 {
+    0%{
+        margin-right: 0vw;
+    }
+    10%{
+        margin-right: -4vw;
+    }
+    20%{
+        margin-right: -8vw;
+    }
+    30%{
+        margin-right: -12vw;
+    }
+    40%{
+        margin-right: -16vw;
+    }
+    50%{
+        margin-right: -20vw;
+    }
+    60%{
+        margin-right: -24vw;
+    }
+    70%{
+        margin-right: -28vw;
+    }
+    80%{
+        margin-right: -32vw;
+    }
+    90%{
+        margin-right: -36vw;
+    }
+    100%{
+        margin-right: -40vw;
+    }
+
+}
+.mcc{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: scroll;
+}
+.addtabtitle{
+    height: 13%;
+    background-color: rgba(233,248,255,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vw 1.8vw;
+}
+.tter{
+    color: rgba(113,128,145,255);
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+.addnewadd{
+    height:2.5vw ;
+    width: 11vw;
+    background-color: white;
+    color: rgba(0, 102, 167, 0.87);
+    border: 1px solid rgba(0, 102, 167, 0.87);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.addp1{
+    display: flex;
+    width: 85%;
+    height: 6.9vw;
+    margin-right: 1vw;
+    background-color: white;
+    border: 1px dashed rgba(0, 102, 167, 0.87);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1vw;
+}
+.addc{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+.addedit{
+    width: 3.25vw;
+    height: 3.25vw;
+    background-color: rgba(235,241,247,255);
+    border: 0;
+    margin-bottom: 0.5vw;
+    cursor: pointer;
+}
+.adddel{
+    width: 3.25vw;
+    height: 3.25vw;
+    background-color: rgba(235,241,247,255);
+    border: 0;
+    cursor: pointer;
+}
+.addp2{
+    display: flex;
+    flex-direction: column;
+    
+}
+.adds{
+    display: flex;
+    margin-bottom: 1vw;
+}
+.lim{
+    width: 2vw;
+    height: 2vw;
+}
+.addtext{
+    font-size: 1.2vw;
+    font-weight: 600;
+    padding-left: 0.8vw;
+    color: rgba(95,136,163,255);
+}
+.addlist{
+    padding: 0.8vw;
+}
+.eftitle{
+    color: rgba(0, 102, 167, 0.87);
+    font-size: 1.2vw;
+    font-weight: 600;
+    margin-bottom: 1vw;
+}
+.editform{
+    padding: 1.8vw;
+}
+.dets{
+    width: 25vw;
+    height: 2.5vw;
+    margin-bottom: 2vw;
+    font-size: 1.1vw;
+}
+.savebut{
+    width: 100%;
+    height: 8%;
+    position: absolute;
+    bottom: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: rgb(101, 171, 11);
+    color: white;
+    font-size: 1.2vw;
+    font-weight: 600;
+}
+.mkj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ttt1{
+    color: rgba(183,183,183,255);
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+.tgv{
+    width: 50%;
+    margin: 5vw 0;
+}
+.ytre{
+    color: rgba(183,183,183,255);
+}
+.uygf{
+    width: 15vw;
+    height: 3vw;
+    font-weight: 600;
+    background-color: rgb(101, 171, 11);
+    margin-top: 2vw;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+}
+.closeadd{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.5vw;
+    background-color: transparent;
+    border: 0;
+    color: red;
+   
+    width: 1vw;
+    cursor: pointer;
+}

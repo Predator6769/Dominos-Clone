@@ -1,0 +1,197 @@
+.mlgopen{
+    width: 32vw;
+    height: 41.6vw;
+    background-color: rgba(233,237,239,255);
+    position: fixed;
+    right: 0;
+    top: 4.3vw;
+    z-index: 5;
+    box-shadow:60px 60px 50px 50px rgb(0 0 0 / 69%) ;
+    animation: logmenu1 1s;
+}
+.mlgclose{
+    width: 32vw;
+    height: 41.6vw;
+    background-color: rgba(233,237,239,255);
+    position: fixed;
+    right: 0;
+    top: 4.3vw;
+    z-index: 5;
+    box-shadow:60px 60px 50px 50px rgb(0 0 0 / 69%) ;
+    animation: logmenu2 1s;
+    margin-right: -40vw;
+}
+.mlg{
+    width: 32vw;
+    height: 41.6vw;
+    background-color: rgba(233,237,239,255);
+    position: fixed;
+    right: 0;
+    top: 4.3vw;
+    z-index: 5;
+    box-shadow:60px 60px 50px 50px rgb(0 0 0 / 69%) ;
+    margin-right: -40vw;
+}
+@keyframes logmenu1 {
+    0%{
+        margin-right: -40vw;
+    }
+    10%{
+        margin-right: -36vw;
+    }
+    20%{
+        margin-right: -32vw;
+    }
+    30%{
+        margin-right: -28vw;
+    }
+    40%{
+        margin-right: -24vw;
+    }
+    50%{
+        margin-right: -20vw;
+    }
+    60%{
+        margin-right: -16vw;
+    }
+    70%{
+        margin-right: -12vw;
+    }
+    80%{
+        margin-right: -8vw;
+    }
+    90%{
+        margin-right: -4vw;
+    }
+    100%{
+        margin-right: 0vw;
+    }
+
+}
+@keyframes logmenu2 {
+    0%{
+        margin-right: 0vw;
+    }
+    10%{
+        margin-right: -4vw;
+    }
+    20%{
+        margin-right: -8vw;
+    }
+    30%{
+        margin-right: -12vw;
+    }
+    40%{
+        margin-right: -16vw;
+    }
+    50%{
+        margin-right: -20vw;
+    }
+    60%{
+        margin-right: -24vw;
+    }
+    70%{
+        margin-right: -28vw;
+    }
+    80%{
+        margin-right: -32vw;
+    }
+    90%{
+        margin-right: -36vw;
+    }
+    100%{
+        margin-right: -40vw;
+    }
+
+}
+.piimg2{
+    position: absolute;
+    right: 0;
+    width: 50%;
+}
+.dl2{
+    position: absolute;
+    left: 1.5vw;
+    width: 10%;
+    top: 7.5vw;
+}
+.eeef{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.ltext{
+    position: absolute;
+    top: 8vw;
+    left: 5vw;
+    color: rgba(0,120,173,255);
+    font-size: 2vw;
+    font-weight: 800;
+}
+.lr2{
+    position: absolute;
+    top: 11vw;
+    left: 4vw;
+    font-size: 1.3vw;
+}
+.entdets{
+    width: 85%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    top: 15vw;
+    left: 3vw;
+    box-shadow:1px 1px 2px 2px rgb(0 0 0 / 50%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.drt{
+    font-size: 1.2vw;
+    margin: 1vw 0;
+    margin-left: -3.5vw;
+}
+.rmni{
+    width: 23vw;
+    height: 2.5vw;
+    font-size: 1.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1.5vw;
+}
+.logbut{
+    width: 8vw;
+    height: 2.5vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(101, 171, 11);
+    border: 0;
+    border-radius: 3px;
+    margin-left: 15vw;
+    margin-top: 2vw;
+    cursor: pointer;
+}
+.rty{
+    background-color: rgba(233,237,239,255);
+    border: 0;
+    position: absolute;
+    top: 38vw;
+    left: 12vw;
+    font-size: 1.1vw;
+    font-weight: 600;
+    color: rgb(119, 119, 241);
+    cursor: pointer;
+
+}
+.rty:hover{
+    text-decoration: underline;
+}
+.e{
+    margin-bottom: -1vw;
+    margin-left: -15vw;
+    text-align: left;
+}
+button:disabled{
+    background-color: grey;
+}

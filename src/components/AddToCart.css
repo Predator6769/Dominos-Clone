@@ -1,0 +1,37 @@
+.cartlist{
+    /* border: 1px solid black; */
+    width: 23vw;
+    height: 30vw;
+    margin-top: 3.5vw;
+    margin-left: 1.5vw;
+    box-shadow: rgb(0 0 0 / 12%) 0px 2px 2px 0px, rgb(0 0 0 / 12%) 0px 2px 4px 0px;
+    border-top: 3.5px solid rgb(130, 187, 55);
+    background-color: white;
+    overflow: scroll;
+    position: sticky;
+    top: 10vw;
+}
+.noatcimg{
+   width: 100%;
+}
+.noatcp{
+    color: rgb(113, 128, 145);
+    font-size: 1.7vw;
+    font-weight: 900;
+    
+
+}  
+.noatcp1{
+    color: rgb(105, 129, 158);
+    font-size: 1.2vw;
+    width: 83%;
+    
+}
+
+.efg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:4.5vw;
+    
+}

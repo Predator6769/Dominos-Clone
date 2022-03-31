@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin:0 ;
+    box-sizing: border-box;
+}
+.pizza_img{
+    width: 18.75vw;
+}
+.veg_img{
+    width: 1.2vw;
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    /* bottom: 7.3vw;
+    right: 19.7vw; */
+}
+.product_card{
+   position: absolute;
+   width: 18.8vw;
+   height: 26vw;
+   border-radius: 3px;
+   box-shadow: 0px 0px 2px 2px rgb(210 221 233);
+   display: block;
+   background-color:white;
+  
+}
+.price{
+    position: absolute;
+    top: 6.5vw;
+    left: 2%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+.title{
+    font-weight: bold;
+    padding: 0.5vw 1vw;
+}
+.desc{
+    padding: 0 1vw;
+    padding-bottom: 0.5vw;
+    font-size: 1vw;
+    width: 90%;
+    color: rgba(122, 122, 122, 0.87);
+}
+.product_card hr{
+    width: 90%;
+    margin-top: 1.5vw;
+    margin-left: 1vw;
+}
+.ss{
+    font-size: 0.9vw;
+    color: rgba(122, 122, 122, 0.87);
+}
+.size_crust{
+    display: flex;
+    padding:1vw;
+}
+.crust{
+    width: 9.5vw;
+    background-color: white;
+    border: 0;
+    text-align: left;
+    font-weight: bold;
+    font-size:0.75vw ;
+    border-bottom: 1px solid rgb(155, 154, 154);
+    cursor: pointer;
+}
+.size{
+    width: 6.5vw;
+    margin-right: 1.2vw;
+    background-color: white;
+    border: 0;
+    text-align: left;
+    font-weight: bold;
+    font-size: 0.75vw;
+    border-bottom: 1px solid rgb(155, 154, 154);
+    cursor: pointer;
+}
+.dd{
+    display: flex;
+}
+.dd_but{
+    width: 11vw;
+    font-size: 0.75vw;
+    text-align: left;
+    position: relative;
+    background-color: white;
+    border: 0;
+    font-weight: bold;
+    margin-bottom: 1vw;
+    cursor: pointer;
+}
+.dd_but1{
+    width: 6.5vw;
+    font-size: 00.75vw;
+    text-align: left;
+    position: relative;
+    background-color: white;
+    border: 0;
+    font-weight: bold;
+    margin-bottom: 0.5vw;
+    cursor: pointer;
+}
+.p{
+    position: absolute;
+    right: 0;
+    top: 0.1vw;
+    font-weight: bold;
+    color: rgb(100, 155, 28);
+}
+.crust_dd{
+    display: none;
+    box-shadow: 0px 0px 2px 2px rgb(210 221 233);
+    background-color: white;
+    border-radius: 2px;
+    padding: 1vw;
+    margin-left: 6vw;
+    margin-top: -0.5vw;
+    z-index: 1;
+}
+.size_dd{
+    display: none;
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px rgb(210 221 233);
+    border-radius: 2px;
+    padding: 1vw;
+    margin-left: 1vw;
+    margin-top: -0.5vw;   
+    z-index: 1;
+}
+.addtc{
+    padding:0.6vw 0.4vw;
+    border-radius: 4px;
+    background-color: white;
+    font-weight: bold;
+    border: 0;
+    border: 1px solid rgb(0, 171, 0);
+    color: rgb(0, 171, 0);
+    position: absolute;
+    right: 0.7vw;
+    bottom: 1.3vw;
+    
+}
+.quan1_but{
+    width: 2.4vw;
+    height: 2.1vw;
+    font-size: 1.8vw;
+    color: rgb(39, 71, 87);
+    border: 1px solid rgb(186, 186, 186);
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.quan1_but_1{
+    width: 2.4vw;
+    height: 2.1vw;
+    font-size: 1.5vw;
+    border: 1px solid rgb(186, 186, 186);
+    background-color: white;
+    border-radius: 3px;
+}
+.quan1{
+    display: flex;
+    position: absolute;
+    right: 0.7vw;
+    bottom: 1.3vw;
+}
+.customise{
+    position: absolute;
+    right: 0.6vw;
+    top: 6.6vw;
+    color: rgb(68, 68, 240);
+    background-color: white;
+    opacity: 0.8;
+    border: 0;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 0.3vw;
+    font-size: 0.7vw;
+    cursor: pointer;
+}
+.product_menu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.customs1{
+    position: absolute;
+    left: 1vw;
+    top: 22.7vw;
+}
+.custombutt1{
+    width: 6.7vw;
+    height: 2vw;
+    font-weight: 600;
+    color: rgb(68, 101, 122);
+    background-color: white;
+    border: 1px solid rgb(184, 200, 216);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.custdisplay{
+     width:17vw;
+     height: 21vw;
+     box-shadow: rgb(43 69 71 / 13%) 10px 10px 32px 10px;
+     border-radius: 3px;
+     background-color: white;
+     position: absolute;
+     bottom: 2.3vw;
+     padding: 1vw;
+}
+.custtitle1{
+    font-size: 0.9vw;
+    font-weight: 600;
+    color: rgb(68, 101, 122);
+    margin-bottom: 0.5vw; 
+}
+.dfg{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(193, 203, 209);
+    align-items: center;
+    
+}
+.cvf{
+    background-color: white;
+    border: 0;
+    cursor: pointer;
+}
+.delbut1{
+    height: 2.3vw;
+}
+.addtopstitle{
+    color: rgb(68, 101, 122);
+    font-size: 0.9vw;
+    font-weight: 600;
+}
+.alltop{
+    color: rgb(68, 101, 122);
+    font-size: 0.9vw;
+}
+.reptoptitle{
+    color: rgb(68, 101, 122);
+    font-size: 0.9vw;
+    font-weight: 600;
+    padding-top: 1vw;
+}
+.replacedtop{
+    color: rgb(68, 101, 122);
+    font-size: 0.9vw;
+}
+.adtops{
+    padding-bottom: 1.3vw;
+    padding-top: 1vw;
+}
+.nocustdisplay{
+    display: none;
+}

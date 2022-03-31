@@ -1,0 +1,76 @@
+.profilein{
+    width: 20vw;
+    height: 8vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    background-color: white;
+    z-index: 7;
+}
+.profileout{
+    width: 27vw;
+    height: 30vw;
+    position: absolute;
+    top: 4.2vw;
+    right: 3vw;
+    display: block;
+    background-color: white;
+    z-index: 7;
+    border-radius: 5px;
+}
+.dfgb{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.initial{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    font-weight: 600;
+    color: white;
+    background-color: rgba(0,102,167,255);
+    position: absolute;
+    left: 3vw;
+}
+.p1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 20%;
+    width: 100%;
+    background-color: white;
+    position: relative;
+    border: 0;
+    cursor: pointer;
+    
+}
+.tyu{
+    background-color:rgb(205, 230, 246);
+}
+.nt{
+    font-size: 1.2vw;
+    margin-left: -7vw;
+}
+.ebut{
+    position: absolute;
+    right: 2vw;
+}
+.ggg{
+    position: absolute;
+    left: 3vw;
+}
+.tgf{
+    position: absolute;
+    left: 8vw;
+    font-size: 1.2vw;
+}
+.ebut2{
+    position: absolute;
+    right: 3.5vw;
+}

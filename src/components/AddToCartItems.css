@@ -1,0 +1,91 @@
+.piz_img{
+    width: 6vw;
+    height: 6vw;
+}
+.veg_nonveg{
+    width: 20%;
+    position: absolute;
+    left: 0.4vw;
+    top: 0.4vw;
+}
+.piztypevnv{
+    position: relative;
+    margin-right: 1.5vw;
+}
+.pizti{
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: rgb(39, 71, 87);
+    margin-bottom: 0.5vw;
+}
+.pizdesc{
+    font-size: 0.9vw;
+    /* font-weight: 600; */
+    margin-bottom: 0.5vw;
+    color: rgb(39, 71, 87);
+
+}
+.piztype{
+    font-size: 0.9vw;
+    font-weight: 600;
+    color: rgb(39, 71, 87);
+}
+.piz_dets{
+    display: flex;
+}
+.quan_but{
+    width: 2.4vw;
+    height: 2.1vw;
+    font-size: 1.8vw;
+    color: rgb(39, 71, 87);
+    border: 1px solid rgb(186, 186, 186);
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.quan_but_1{
+    width: 2.4vw;
+    height: 2.1vw;
+    font-size: 1.5vw;
+    border: 1px solid rgb(186, 186, 186);
+    background-color: white;
+    border-radius: 3px;
+}
+.quan{
+    display: flex;
+}
+.atcprice{
+    color: rgb(44, 101, 128);
+    font-size: 1.4vw;
+    font-weight: bold;
+}
+.pizquanprice{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.3vw;
+}
+.custumtitl{
+    color: rgb(87, 153, 225);
+    font-weight: 600;
+    font-size: 1.25vw;
+    margin: 0.5vw 0;
+}
+.addtop{
+    color: rgba(60, 81, 95, 0.87);
+    font-size: 1vw;
+    margin-bottom: 0.5vw;
+    font-weight: 600;
+}
+.reptop{
+    color: rgba(60, 81, 95, 0.87);
+    font-size: 1vw;
+    margin-bottom: 0.9vw;
+    font-weight: 600;
+}
+.addedproduct{
+    padding: 1vw;
+}
+.endl{
+    border-bottom: 1px dashed rgb(186, 186, 186);
+    margin-top: 1.5vw;
+}
