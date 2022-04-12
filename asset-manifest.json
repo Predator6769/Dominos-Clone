@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Dominos-Clone/static/css/main.e1049d97.css",
-    "main.js": "/Dominos-Clone/static/js/main.5f65bbea.js",
+    "main.js": "/Dominos-Clone/static/js/main.b47f1cee.js",
     "static/media/margarita.jpg": "/Dominos-Clone/static/media/margarita.c1727015f076a8fec382.jpg",
     "static/media/veggieparadise.JPG": "/Dominos-Clone/static/media/veggieparadise.88e1ec2b550c129fbc80.JPG",
     "static/media/vegextravagenza.JPG": "/Dominos-Clone/static/media/vegextravagenza.29c3a17fdb8d1b66319a.JPG",
@@ -58,10 +58,10 @@
     "static/media/deladdbut.PNG": "/Dominos-Clone/static/media/deladdbut.511e788bc83046dbdbee.PNG",
     "static/media/editaddbut.PNG": "/Dominos-Clone/static/media/editaddbut.778891cd66464fbf1e76.PNG",
     "main.e1049d97.css.map": "/Dominos-Clone/static/css/main.e1049d97.css.map",
-    "main.5f65bbea.js.map": "/Dominos-Clone/static/js/main.5f65bbea.js.map"
+    "main.b47f1cee.js.map": "/Dominos-Clone/static/js/main.b47f1cee.js.map"
   },
   "entrypoints": [
     "static/css/main.e1049d97.css",
-    "static/js/main.5f65bbea.js"
+    "static/js/main.b47f1cee.js"
   ]
 }
