@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState ,useRef} from 'react'
 // import margarita from './margarita.jpg'
 import './ProductItems.css'
 import vegsym from './veg_symbol.png'
 import nonvegsym from './nonveg_symbol.png'
 import delsym from './delete_symbol.JPG'
-import { useRef } from 'react/cjs/react.development'
 export default function ProductItems(props) {
     const [customs, setcustoms] = useState([[],[0,0]]);
     const r=useRef(0);
