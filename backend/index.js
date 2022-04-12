@@ -14,8 +14,8 @@ app.use('/silog',require('./routes/silog'));
 app.use('/profileedit',require('./routes/ProfileEdit'));
 app.use('/payment',require('./routes/Payment'));
 
-app.get('/',(req,res)=>{
-    res.sendFile(path.join('C:/Users/dell/Documents/web dev clone 3','build','index.html'));
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../build', 'index.html'));
 });
 
 
