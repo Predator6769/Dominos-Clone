@@ -8,7 +8,7 @@ const secret = "wedonttalkanymore";
 const jwt = require('jsonwebtoken');
 // check('username','Enter a valid username').isLength({min:3}),check('email',"Enter a valid email").isEmail(),check('password',"Enter a valid password").isLength({min:8}),check("phoneNumber","Enter a valid phonenumber").isLength(10)
 router.post('/', [check('password', "Enter a valid password").isLength({ min: 8 }), check("phoneNumber", "Enter a valid phonenumber").isLength(10)], async (req, res) => {
-    console.log(req.body);
+    
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
         return res.status(400).json({ errors: errors.array() })
@@ -35,7 +35,7 @@ router.post('/', [check('password', "Enter a valid password").isLength({ min: 8 
                         return res.status(400).json({ error: "The credentials used already exists" });}
                 const data = { id: nuser._id };
                 const jwdata = jwt.sign(data, secret);
-                console.log(jwdata);
+                
                 res.json({authtoken:jwdata});
             });
         }

@@ -15,9 +15,8 @@ import chicken_peperoni from './components/chickenpeproni.JPG'
 import keema_do_pyasa from './components/keemadopyasa.JPG'
 import pepper_barbeque_and_onion from './components/pepperbarbecueandonion.JPG'
 import CustomiseMenu from './components/CustomiseMenu';
-import React, { useRef, useState } from 'react';
+import React, { useLayoutEffect, useRef, useState,useEffect } from 'react';
 import AddToCart from './components/AddToCart';
-import { useEffect } from 'react/cjs/react.development';
 import LoginPage from './components/LoginPage';
 import Address from './components/Address';
 import ProfileEditMenu from './components/ProfileEditMenu';
@@ -81,10 +80,8 @@ function App() {
 
   const [g5,setg5]=useState([[],[0,0]]);
   function custmenu(e, t, selsize, selcrust, fp,cs) {
-    console.log(t);
     setclose(e);
     let k = 0;
-    console.log(t);
     for (let i = 0; i < allcategory.length; i++) {
       for (let j = 0; j < allcategory[i].cat_products.length; j++) {
         if (t === allcategory[i].cat_products[j].title) {
@@ -206,8 +203,6 @@ function App() {
     }
     else if (e === 0) {
       var h1 = Object.assign([], atcdets);
-      console.log(atcdets);
-      console.log(g);
       var tbg=1,ng=0;
       var ghc=Object.assign([],inr.current);
       for (let i = 0; i < atcdets.length; i++) {
@@ -320,7 +315,6 @@ function App() {
 
   }
   function addresspage(){
-    console.log(useraddress)
     setpec('profilein');
     if(addressi==="addtab" || addressi==="addtabclose")
     setaddressi('addtabopen')
@@ -342,7 +336,6 @@ function App() {
     })
     .then(res=>res.json())
     .then(response=>{
-      console.log(response);
       setpno(response.phoneNumber);
         if(isNaN(Number(response.username))) 
         setuname(response.username);
@@ -410,7 +403,6 @@ const initPayment = (data) => {
           },
           body:JSON.stringify(response)
         });
-        console.log(data);
       } catch (error) {
         console.log(error);
       }
@@ -434,7 +426,7 @@ const handlePayment = async () => {
       body:JSON.stringify({amount: hbd })
     })
     .then(res=>res.json())
-    .then(data=>{console.log(data);
+    .then(data=>{
       initPayment(data.data);});
     // console.log(data);
     // initPayment(data.data);
